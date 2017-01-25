@@ -67,7 +67,7 @@ namespace SoftwareBot
             Responders.Add(new ChatResponder());
             //Responders.Add(new AdminResponder(this));
             //Responders.Add(new TfsBuildResponder());
-            //Responders.Add(new OneNoteResponder());
+            Responders.Add(new OneNoteResponder());
 
             Console.Error.WriteLine("The features that are included in this build are:\n");
             foreach (IResponder r in Responders)
